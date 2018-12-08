@@ -26,7 +26,7 @@ def sniffer(interface):
     #wrpcap("temp.pcap", pkts)
 
 def MiddleMan():
-    interface = input("interface: \n") #wlan0
+    interface = input("interface: \n") #wlp3s0
     victimIP = input("victim: \n") #129.161.137.140     129.161.139.104
     routerIP= input("router: \n") #129.161.139.254 
     os.system("echo 1 > /proc/sys/net/ipv4/ip_forward")
